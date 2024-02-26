@@ -277,9 +277,9 @@ p {
 .values {
     /* display: flex; */
     position: absolute;
-    width: 365px;
-    height: 95vh;
-    left: 775px;
+    /* width: 365px;
+    height: 600px;
+    left: 775px; */
     /* top: -50px; */
 }
 
@@ -296,8 +296,11 @@ p {
 
 footer {
     height: 40vh;
-    width: 100vw;
+    /* width: 100vw; */
     background-color: #00092A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 70px 103px;
     color: white;
 
@@ -379,8 +382,12 @@ footer {
         height: 95vh;
         left: 775px; */
 
+        width: auto;
+
 
         display: block;
+        height: 87vh;
+        width: 39vw;
         left: 50vw;
 
     }
